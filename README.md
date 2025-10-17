@@ -1,3 +1,4 @@
+```bash
 Sentiment_Analysis/
 │
 ├── 📁 data/
@@ -31,3 +32,4 @@ Sentiment_Analysis/
 ├── config.yaml                         # Đường dẫn dữ liệu, thông số mô hình, tham số Spark
 ├── README.md                           # Giới thiệu project, hướng dẫn chạy
 └── .gitignore
+```

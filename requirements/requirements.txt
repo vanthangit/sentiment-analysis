@@ -1,0 +1,10 @@
+pyspark
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+nltk
+torch
+transformers
+tqdm

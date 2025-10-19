@@ -6,25 +6,22 @@ Sentiment_Analysis/
 │   │   └── amazon_reviews_raw.csv
 │   ├── processed/               # Dữ liệu sau xử lý với Spark
 │   │   └── amazon_reviews_clean.parquet
+│   ├── external/               
+│   │   └── NRC.csv
 │
 ├── 📁 notebooks/
 │   ├── sentiment_analysis.ipynb
 │
 ├── 📁 models/
 │   ├── ml/
-│   │   ├── logistic_regression.pkl
-│   │   ├── svm_model.pkl
-│   │   └── random_forest.pkl
+│   │   ├── logistic_regression
+│   │   ├── svm_model
+│   │   └── random_forest
 │   └── dl/
 │       ├── lstm_model.pt
 │       └── bert_model/
 │           ├── config.json
 │           └── pytorch_model.bin
-│
-├── 📁 reports/
-│   ├── proposal.docx
-│   ├── final_report.docx
-│   └── presentation.pptx
 │
 ├── 📁 requirements/
 │   └── requirements.txt                # pyspark, numpy, pandas, matplotlib, seaborn, nltk,...

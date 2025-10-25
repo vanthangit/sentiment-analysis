@@ -1,0 +1,8 @@
+# Ignore model & data files
+models/
+*.pt
+*.safetensors
+*.bin
+*.parquet
+*.csv
+*.log

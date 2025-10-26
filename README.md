@@ -14,14 +14,21 @@ Sentiment_Analysis/
 │
 ├── 📁 models/
 │   ├── ml/
-│   │   ├── logistic_regression
-│   │   ├── svm_model
-│   │   └── random_forest
+│   │   ├── linearsvm_model
+│   │   ├── logisticregression_model
+│   │   └── randomforest_model
 │   └── dl/
-│       ├── lstm_model.pt
-│       └── bert_model/
+│       ├── bilstm_model.pt
+|       ├── lstm_model.pt
+│       └── bert_sentiment_model/
+│           ├── logs/
+│           ├── results/
 │           ├── config.json
-│           └── pytorch_model.bin
+│           ├── model.safetensors
+│           ├── special_tokens_map.json
+│           ├── tokenizer_config.json
+│           ├── tokenizer.json
+│           └── vocab.txt
 │
 ├── 📁 requirements/
 │   └── requirements.txt                # pyspark, numpy, pandas, matplotlib, seaborn, nltk,...
